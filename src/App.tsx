@@ -1,14 +1,17 @@
 // import { useState } from 'react'
 import './App.css'
-import Navbar from './components/Navbar'
+import Main from './components/Main/Main'
+import Navbar from './components/Navbar/Navbar'
+
 
 function App() {
-  // const [count, setCount] = useState(0)
+
 
   return (
     <>
-      {/* <h3>Main Application</h3> */}
-      <Navbar/>
+
+      <Navbar />
+      <Main />
     </>
   )
 }
